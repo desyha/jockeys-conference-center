@@ -1,0 +1,126 @@
+
+
+.home-intro{
+    padding-top: 20%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(rgba(100, 119, 131, 0), rgba(39, 34, 33, 2)), url("../assets/home/home1.jpg");
+    background-size: cover;
+}
+
+
+
+.home-events{
+    background-color: #201715;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+h1{
+    color: #ee664e;
+}
+
+h2{
+    color: #ffffff;
+    text-align: left;
+}
+
+.home-events-photo{
+    float: left;
+    padding-right: 3%;
+}
+
+.home-events-info{
+    padding-top: 1%;
+}
+.home-events-place{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.home-about{
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15%;
+    background-color: #201715;
+}
+
+.home-about-photo{
+    float: right;
+    padding-left: 3%;
+}
+
+.home-about-paraf{
+    padding-top: 5%;
+    font-size: 20px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.home-about h1{
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px){
+    .home-intro{
+        padding-top: 50%;
+        padding-bottom: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        background-image: linear-gradient(rgba(100, 119, 131, 0), rgba(39, 34, 33, 2)), url("../assets/home/home1.jpg");
+        background-size: cover;
+    }
+    
+    
+    h1{
+        color: #ee664e;
+        text-align: center;
+    }
+    
+    h2{
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .home-events-photo{
+        float: none;
+        text-align: center;
+    }
+    
+    .home-events-info{
+        padding-top: 1%;
+        text-align: center;
+    }
+    .home-events-place{
+        color: #ffffff;
+        font-size: 15px;
+    }
+    
+    
+    .home-about-photo{
+        float: none;
+        text-align: center;
+    }
+    
+    .home-about-paraf{
+        padding-top: 5%;
+        font-size: 15px;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    .home-about h1{
+        text-align: center;
+    }
+
+}

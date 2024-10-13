@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/contact.css">
+	<script type="text/javascript" src="./js/validation.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <div id="wrap">
+        <div id="header">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="./assets/universal/logo_dark.png">
+                </a>
+            </div>
+            <div class="menu">
+                    <ul>
+                        <li class="active-nav">
+                            <a href="about.html">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="active-nav">
+                            <a href="events.html">
+                                Events
+                            </a>
+                        </li>
+                        <li class="active-nav">
+                            <a href="price.html">
+                                Price list
+                            </a>
+                        </li>
+                        <li class="active-nav">
+                            <a href="contact.html">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div class="register-form">
+                <img src="./assets/contact/customer-service.png">
+                <div class="form">
+                    <h1>Contact Us</h1>
+                    <form>
+                        <div>
+                            <span><label>Full name</label></span>
+                            <span><input id="fullname" type="text" class="textbox" ></span>
+                            <div class="err">
+                                <label id="err-fullname">
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <span><label>Phone number</label></span>
+                            <span><input id="phone" type="number" class="textbox" ></span>
+                            <div class="err">
+                                <label id="err-phone">
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                             <span><label>Email</label></span>
+                             <span><input id="email" type="text" class="textbox"></span>
+                             <div class="err">
+                                <label id="err-email">
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                             <span><label>Message</label></span>
+                             <span><textarea id="message" rows="5"></textarea></span>
+                             <div class="err">
+                                <label id="err-message">
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <span><label>Peferred contact method</label></span>
+                            <span>
+                                <input type="radio" name="contactmethod" class="textbox" value="phone" id="radiophone">Phone
+                                <input type="radio" name="contactmethod" class="textbox" value="email" id="radioemail">Email
+                            </span>
+                           <div class="err">
+                               <label id="err-contactmethod">
+                               </label>
+                           </div>
+                       </div>
+                        <div>
+                            <!-- i thick theres a fucking jsc here -->
+                              <span><input onclick="validate()" type="button" value="Submit" class="buttonSave"></span>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="footer">
+        <div class="social">
+            <a href="https://twitter.com/" target="_blank"><img src="./assets/universal/twitter_light.png" class="social-icon"alt=""></a> 
+            <a href="https://facebook.com/" target="_blank"><img src="./assets/universal/facebook_light.png" class="social-icon" alt=""></a> 
+            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/universal/instagram_light.png" class="social-icon" alt=""></a> 
+        </div>
+        <p class="copyright">
+            Copyright &copy 2023 Jockey’s Conference Center. All Rights Reserved
+        </p>
+    </div>
+</body>
+</html>
